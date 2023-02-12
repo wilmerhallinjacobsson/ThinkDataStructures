@@ -131,8 +131,8 @@ public class MyArrayList<T> implements List<T> {
 	 *
 	 * Handles the special case that the target is null.
 	 *
-	 * @param target
-	 * @param object
+	 * @param target a be
+	 * @param element be a
 	 */
 	private boolean equals(Object target, Object element) {
 		if (target == null) {

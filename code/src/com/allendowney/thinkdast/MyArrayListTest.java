@@ -53,7 +53,7 @@ public class MyArrayListTest {
 			mylist.add(i);
 		}
 		//System.out.println(Arrays.toString(mal.toArray()));
-		assertThat(mylist.get(18), is(new Integer(19)));
+		assertThat(mylist.get(18), is(19));
 	}
 
 	/**
